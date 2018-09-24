@@ -21,7 +21,7 @@ $router->setStrategy($strategy);
 ## Conversions
 The package comes with the following conversions bundled:
 
-###HtmlConvertor
+### HtmlConvertor
 This convertor will convert any text to a text/html response
 ```php
 $router = new \League\Route\Router();
@@ -35,7 +35,7 @@ $router->get('/text', function(){
     return 'Hello world';
 });
 ```
-###JsonConvertor
+### JsonConvertor
 This convertor will convert any array or object to an application/json response
  
  ```php
@@ -55,7 +55,7 @@ This convertor will convert any array or object to an application/json response
       return new ArrayObject(['foo'=>'bar']);
  });
  ```
- ###ConvertorCollection
+ ### ConvertorCollection
  This convertor allows you to have multiple conversions. The first one that can be used will be used:
  ```php
 $router = new \League\Route\Router();
