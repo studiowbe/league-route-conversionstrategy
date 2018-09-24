@@ -2,6 +2,7 @@
   "name": "studiow/league-route-conversionstrategy",
   "description": "A smart conversion strategy for league/route",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Willem Wollebrants",
